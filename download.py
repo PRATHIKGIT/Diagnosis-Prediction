@@ -35,8 +35,8 @@ def main():
     input_text = st.text_area("Enter the clinical text:", "")
     
     # File path input for CSV file
-    csv_file_path =r"C:\Users\ADMIN\Downloads\HEALTHSYNC\CORE\CMS32_DESC_LONG_SHORT_DX.xlsx"
-    csv_file_path1 =r"C:\Users\ADMIN\Downloads\HEALTHSYNC\CORE\CMS32_DESC_LONG_SHORT_SG.xlsx"
+    csv_file_path =r"\CMS32_DESC_LONG_SHORT_DX.xlsx"
+    csv_file_path1 =r"\CMS32_DESC_LONG_SHORT_SG.xlsx"
 
     
     if csv_file_path.strip() != "":
